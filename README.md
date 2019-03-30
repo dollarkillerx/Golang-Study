@@ -423,7 +423,133 @@ func main()  {
     - map使用hash表,必须可以比较相等
     - 除了slice,map,func的内建类型都可以作为key
     - struct类型不包含上述字段,也可以作为key
-    
+- 使用 `utf8.RuneCountInString` 获得str数量
+- 使用`len`获得字节长度
+- 使用`[]byte` 获得字节
+
+### 结构体和方法
+- 尽支持分装,不支持继承和多态
+- 不论地址还是结构本身,一律使用.来访问成员
+- 当默认构造不能满足要求的时候可以使用工厂函数
+    - 工厂函数返回局部变量的地址
+    - 不需要知道 堆栈分配  
+        - 返回引用地址 在堆上分配
+        - 没有返回引用地址 在栈上分配
+``` 
+func createNode(value int) *treeNode {
+	return &treeNode{value: value}
+}
+```
+- 结构方法
+    - 指针才可以改变结构内容
+    - nil 指针也可以调用方法
+    - 值接受者 vs 指针接受者
+        - 需要改变内容必须使用指针接受者
+        - 结构过大也考虑使用指针接受者
+        - 一致性: 如有指针接受者,最好都是指针接受者
+- 匿名字段
+``` 
+type Human struct {
+    name string
+    age int
+    weight int
+}
+
+type Student struct {
+    Human // 匿名字段,默认包含human所有字段
+}
+```
+### 封装
+- 名字一般使用CamelCase
+- 首字母大写:public
+- 首字母小写:private
+- 包
+    - 每个目录一个包
+    - main包包含可执行入口
+    - 给结构定义方法必须放在同一个包内
+    - 可以是不同文件
+- 扩充系统类型or其他类型
+    - 定义别名
+    - 使用组合
+
+``` 
+// 接受者 (接受者) 返回函数名称
+func (node treeNode) print() {
+	fmt.Println(node)
+}
+root.print()
+```
+### 接口 非侵入式接口
+> 在golang中 一个类实现了该接口要求的所有的函数,这个了类就实现了该接口
+    - 将对象实例赋值给接口
+    - 将接口赋值给接口 小=大 可以把包含方法多的接口赋值给包含方法少的接口
+    - go语言的任何类型都可以实现空接口
+``` 
+type Animal interface {
+    Eat()
+    Fly() bool
+}
+type Bird struce {}
+
+func (bired Bird) Eat() {
+    fmt.print("birde Eat")
+}
+func (bired Bird) Fly() bool {
+    return true
+}
+func main() {
+    animal := new(Animal)
+    bired := new(Bird)
+    animal = bired
+    animal.Fly()
+    animal.Eat()
+}
+```
+- 空接口 空接口可以接受任何对象
+``` 
+var v1 interface{} = 1
+var v1 interface{} = "abc"
+var v1 interface{} = 2.56
+var v1 interface{} = make(map..)
+```
+- 空接口 类型查询
+``` 
+if v,ok :=v1.(float64);ok {  // 判断v1是不是float64
+    fmt.Print("this is float64")
+}
+```
+``` 
+var v1 interface{}
+v1 = 65.45
+switch v := v1.(type) {
+    case int:
+        ..
+    case float32:
+        ..
+}
+
+```
+### GOPATH
+- 默认在~/go(unix,linux),%USERPROFILE%\go
+- 官方推荐:所有的项目和第三方库都放到同一个GOPATH下
+- 也可以将每个项目放到不同的GOPATH
+
+### duck typing
+- 描述事物的外部行为而非内部结构
+- 严格说go属于结构化类型系统,类似duck typing
+### 并发编程 协程
+> 协程  轻量级 创建上百万个都不会挂掉  而线程和进程不能超过1万个
+- goroutine-Go对协程的实现
+    - go + 函数名: 启动一个协程执行函数体
+### channel
+> Go语言在语言级别提供goroutine之间的通讯方式
+- 声明 `var chanName chan ElementType`
+    - 利用make定义 可以指定chan容量
+- channel写和读
+    - ch <- c写
+    - c:=<-ch 读
+    - 阻塞 除非有goroutine对其进行操作
+
 ### golang指南
 
 #### 基础

@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+/**
+寻找最长不含有重复的子串
+- aabcabcbcacacb -> abc
+- bbbbb -> b
+
+ */
+
 func main()  {
 	m := map[string]string {
 		"name": "dollarkiller",
