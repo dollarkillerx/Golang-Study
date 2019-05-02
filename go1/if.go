@@ -8,10 +8,10 @@ import (
 func main() {
 	const filename = "abc.txt"
 
-	if context,err:= ioutil.ReadFile(filename);err != nil {
+	if context, err := ioutil.ReadFile(filename); err != nil {
 		fmt.Println(err)
-	}else{
-		fmt.Printf("%s\n",context)
+	} else {
+		fmt.Printf("%s\n", context)
 	}
 
 }

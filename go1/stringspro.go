@@ -172,5 +172,5 @@ func main() {
 
 	fmt.Println("")
 	fmt.Println(" TrimSpace 函数的用法")
-	fmt.Println(strings.TrimSpace(" \t\n a lone gopher \n\t\r\n")) // a lone gopher 
+	fmt.Println(strings.TrimSpace(" \t\n a lone gopher \n\t\r\n")) // a lone gopher
 }

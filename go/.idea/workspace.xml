@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90cd2aac-1846-48b6-abd4-846f0ac79790" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/go.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fib/fib_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/firset_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go1/queue/entry/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go1/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go1/tree/entry/entry.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go1/tree/node.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go1/tree/nodep.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go2/retriever/functional/adder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go2/retriever/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go2/retriever/mock/mockretriever.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go2/retriever/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go2/retriever/real/retrever.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NNNotebook.md" beforeDir="false" afterPath="$PROJECT_DIR$/../NNNotebook.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/basic.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/basic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/for.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/for.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/if.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/if.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/mappro.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/mappro.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/pointer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/slicepro.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/slicepro.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/strings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/stringspro.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/stringspro.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go1/switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/switch.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="330" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fib/fib_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#13#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/opt/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/c1.go" />
+        <option value="$PROJECT_DIR$/test/firset_test.go" />
+        <option value="$PROJECT_DIR$/fib/fib_test.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="781" />
+    <option name="y" value="56" />
+    <option name="width" value="1429" />
+    <option name="height" value="1002" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.TestFibList in go/fib">
+    <configuration name="go build c1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/c1.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFibList in go/fib" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/fib" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go/fib" />
+      <pattern value="^TestFibList$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFirstTry in go/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go/test" />
+      <pattern value="^TestFirstTry$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestFibList in go/fib" />
+        <item itemvalue="Go Test.TestFirstTry in go/test" />
+        <item itemvalue="Go Build.go build c1.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestFirstTry_in_go_test - 2019.05.02 at 23h 13m 53s.xml">
+      <configuration name="TestFirstTry in go/test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestFirstTry_in_go_test - 2019.05.02 at 23h 14m 04s.xml">
+      <configuration name="TestFirstTry in go/test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestFirstTry_in_go_test - 2019.05.02 at 23h 14m 13s.xml">
+      <configuration name="TestFirstTry in go/test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestFibList_in_go_fib - 2019.05.02 at 23h 16m 35s.xml">
+      <configuration name="TestFibList in go/fib" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestFibList_in_go_fib - 2019.05.02 at 23h 17m 16s.xml">
+      <configuration name="TestFibList in go/fib" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="781" y="56" width="1429" height="1002" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24981897" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Profiler" weight="0.32912844" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32912844" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32912844" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3294714" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/go$TestFibList_in_go_fib.out" NAME="TestFibList in go/fib Coverage Results" MODIFIED="1556810236434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestFirstTry_in_go_test.out" NAME="TestFirstTry in go/test Coverage Results" MODIFIED="1556810053333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/c1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/firset_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fib/fib_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#13#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

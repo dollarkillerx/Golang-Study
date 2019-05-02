@@ -18,7 +18,7 @@ func enums() {
 		_
 		golang
 	)
-	fmt.Println(cpp,java,python,golang)
+	fmt.Println(cpp, java, python, golang)
 }
 
 func main() {
