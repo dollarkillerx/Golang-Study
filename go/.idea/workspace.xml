@@ -2,38 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90cd2aac-1846-48b6-abd4-846f0ac79790" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/go.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fib/fib_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/firset_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go1/queue/entry/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go1/queue/queue.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go1/tree/entry/entry.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go1/tree/node.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go1/tree/nodep.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go2/retriever/functional/adder.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go2/retriever/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go2/retriever/mock/mockretriever.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go2/retriever/queue/queue.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../go2/retriever/real/retrever.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NNNotebook.md" beforeDir="false" afterPath="$PROJECT_DIR$/../NNNotebook.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/array.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/basic.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/basic.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/for.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/for.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/func.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/func.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/if.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/if.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/mappro.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/mappro.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/pointer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/slice.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/slicepro.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/slicepro.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/strings.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/stringspro.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/stringspro.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../go1/switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/../go1/switch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/empty_interface/empyr_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/enc/necap_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/error/error_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/error/exit_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/extension/extent_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/func/fn_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/gruntine/gorutine_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mappro_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mapset_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/operator_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/string_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/type_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NNNN.md" beforeDir="false" afterPath="$PROJECT_DIR$/../NNNN.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,18 +24,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="330" />
+    <option name="myElementSize" value="348" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fib/fib_test.go">
+        <entry file="file://$PROJECT_DIR$/test/gruntine/gorutine_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#13#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -80,14 +59,27 @@
         <option value="$PROJECT_DIR$/c1.go" />
         <option value="$PROJECT_DIR$/test/firset_test.go" />
         <option value="$PROJECT_DIR$/fib/fib_test.go" />
+        <option value="$PROJECT_DIR$/test/type_test.go" />
+        <option value="$PROJECT_DIR$/test/operator_test.go" />
+        <option value="$PROJECT_DIR$/test/mappro_test.go" />
+        <option value="$PROJECT_DIR$/test/mapset_test.go" />
+        <option value="$PROJECT_DIR$/test/string_test.go" />
+        <option value="$PROJECT_DIR$/test/func/fn_test.go" />
+        <option value="$PROJECT_DIR$/test/enc/necap_test.go" />
+        <option value="$PROJECT_DIR$/test/enc/extemsion.go" />
+        <option value="$PROJECT_DIR$/test/extension/extent_test.go" />
+        <option value="$PROJECT_DIR$/test/empty_interface/empyr_test.go" />
+        <option value="$PROJECT_DIR$/test/error/error_test.go" />
+        <option value="$PROJECT_DIR$/test/error/exit_test.go" />
+        <option value="$PROJECT_DIR$/test/gruntine/gorutine_test.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="781" />
-    <option name="y" value="56" />
+    <option name="x" value="1296" />
+    <option name="y" value="48" />
     <option name="width" value="1429" />
-    <option name="height" value="1002" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -95,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,10 +94,15 @@
               <item name="go" type="b2602c69:ProjectViewProjectNode" />
               <item name="go" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,6 +114,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,81 +128,129 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestFibList in go/fib">
-    <configuration name="go build c1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestGroutine in go/test/gruntine">
+    <configuration name="TestCc in go/test/empty_interface" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/c1.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestFibList in go/fib" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$/fib" />
+      <working_directory value="$PROJECT_DIR$/test/empty_interface" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go/fib" />
-      <pattern value="^TestFibList$" />
+      <package value="go/test/empty_interface" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCc$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFirstTry in go/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEmptyInterfaceAssertion in go/test/empty_interface" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go" />
-      <working_directory value="$PROJECT_DIR$/test" />
+      <working_directory value="$PROJECT_DIR$/test/empty_interface" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="go/test" />
-      <pattern value="^TestFirstTry$" />
+      <package value="go/test/empty_interface" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestEmptyInterfaceAssertion$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGetFibonacci in go/test/error" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/test/error" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go/test/error" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestGetFibonacci$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGroutine in go/test/gruntine" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/test/gruntine" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go/test/gruntine" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestGroutine$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPanVxExit in go/test/error" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/test/error" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go/test/error" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestPanVxExit$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestFibList in go/fib" />
-        <item itemvalue="Go Test.TestFirstTry in go/test" />
-        <item itemvalue="Go Build.go build c1.go" />
+        <item itemvalue="Go Test.TestGroutine in go/test/gruntine" />
+        <item itemvalue="Go Test.TestPanVxExit in go/test/error" />
+        <item itemvalue="Go Test.TestGetFibonacci in go/test/error" />
+        <item itemvalue="Go Test.TestEmptyInterfaceAssertion in go/test/empty_interface" />
+        <item itemvalue="Go Test.TestCc in go/test/empty_interface" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFirstTry_in_go_test - 2019.05.02 at 23h 13m 53s.xml">
-      <configuration name="TestFirstTry in go/test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPanVxExit_in_go_test_error - 2019.05.03 at 16h 52m 08s.xml">
+      <configuration name="TestPanVxExit in go/test/error" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFirstTry_in_go_test - 2019.05.02 at 23h 14m 04s.xml">
-      <configuration name="TestFirstTry in go/test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPanVxExit_in_go_test_error - 2019.05.03 at 20h 09m 47s.xml">
+      <configuration name="TestPanVxExit in go/test/error" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFirstTry_in_go_test - 2019.05.02 at 23h 14m 13s.xml">
-      <configuration name="TestFirstTry in go/test" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPanVxExit_in_go_test_error - 2019.05.03 at 20h 09m 56s.xml">
+      <configuration name="TestPanVxExit in go/test/error" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFibList_in_go_fib - 2019.05.02 at 23h 16m 35s.xml">
-      <configuration name="TestFibList in go/fib" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestGroutine_in_go_test_gruntine - 2019.05.03 at 20h 38m 43s.xml">
+      <configuration name="TestGroutine in go/test/gruntine" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFibList_in_go_fib - 2019.05.02 at 23h 17m 16s.xml">
-      <configuration name="TestFibList in go/fib" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestGroutine_in_go_test_gruntine - 2019.05.03 at 20h 39m 03s.xml">
+      <configuration name="TestGroutine in go/test/gruntine" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGroutine_in_go_test_gruntine - 2019.05.03 at 20h 39m 14s.xml">
+      <configuration name="TestGroutine in go/test/gruntine" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGroutine_in_go_test_gruntine - 2019.05.03 at 20h 40m 02s.xml">
+      <configuration name="TestGroutine in go/test/gruntine" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGroutine_in_go_test_gruntine - 2019.05.03 at 20h 40m 23s.xml">
+      <configuration name="TestGroutine in go/test/gruntine" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGroutine_in_go_test_gruntine - 2019.05.03 at 22h 01m 53s.xml">
+      <configuration name="TestGroutine in go/test/gruntine" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestGroutine_in_go_test_gruntine - 2019.05.03 at 22h 02m 00s.xml">
+      <configuration name="TestGroutine in go/test/gruntine" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="781" y="56" width="1429" height="1002" extended-state="0" />
+    <frame x="1296" y="48" width="1429" height="982" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24981897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17016655" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Profiler" weight="0.32912844" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32912844" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32912844" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3967136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3294714" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Profiler" order="10" weight="0.32912844" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32912844" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.3294714" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +262,19 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/go$TestFibList_in_go_fib.out" NAME="TestFibList in go/fib Coverage Results" MODIFIED="1556810236434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestMapWithFunValue_in_go_test.out" NAME="TestMapWithFunValue in go/test Coverage Results" MODIFIED="1556866299361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestGroutine_in_go_test_gruntine.out" NAME="TestGroutine in go/test/gruntine Coverage Results" MODIFIED="1556892120104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestMApForSet_in_go_test.out" NAME="TestMApForSet in go/test Coverage Results" MODIFIED="1556866641671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestGetFibonacci_in_go_test_error.out" NAME="TestGetFibonacci in go/test/error Coverage Results" MODIFIED="1556872319249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestCc_in_go_test_empty_interface.out" NAME="TestCc in go/test/empty_interface Coverage Results" MODIFIED="1556871287464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestStruct_in_go_test_enc.out" NAME="TestStruct in go/test/enc Coverage Results" MODIFIED="1556868809539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestStringFn_in_go_test.out" NAME="TestStringFn in go/test Coverage Results" MODIFIED="1556867150366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/go$TestFirstTry_in_go_test.out" NAME="TestFirstTry in go/test Coverage Results" MODIFIED="1556810053333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestDog_in_go_test_extension.out" NAME="TestDog in go/test/extension Coverage Results" MODIFIED="1556870053606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestConv_in_go_test.out" NAME="TestConv in go/test Coverage Results" MODIFIED="1556867425982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestFn_in_go_test_func.out" NAME="TestFn in go/test/func Coverage Results" MODIFIED="1556867887162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestEmptyInterfaceAssertion_in_go_test_empty_interface.out" NAME="TestEmptyInterfaceAssertion in go/test/empty_interface Coverage Results" MODIFIED="1556871516011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/go$TestPanVxExit_in_go_test_error.out" NAME="TestPanVxExit in go/test/error Coverage Results" MODIFIED="1556885396164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/c1.go">
@@ -239,11 +296,123 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fib/fib_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="168">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
             <element signature="e#13#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/operator_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mappro_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+          <folding>
+            <element signature="e#14#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mapset_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/type_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/string_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="21" selection-start-line="21" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/func/fn_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/enc/extemsion.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/enc/necap_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#13#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/extension/extent_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#19#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/empty_interface/empyr_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#25#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/error/error_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#15#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/error/exit_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/gruntine/gorutine_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
