@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33240932-0992-4adc-837d-3f934cb92769" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/mysql/test1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/net/http/getAndPost.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/net/http/httpServer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/net/http/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/net/tcp/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/net/tcp/demo1Client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/net/tcp/demo1Service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/net/tcp/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/net/udp/udpClient.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/net/udp/udpServer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/redis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/reflect/demo1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/CSP/c1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/redis/redis1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/redis/redis2.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SystemLearning/GrammarBasis/reflect/reflect1.go" beforeDir="false" afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/reflect/reflect1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SystemLearning/GrammarBasis/mysql/test1.go" beforeDir="false" afterPath="$PROJECT_DIR$/SystemLearning/GrammarBasis/mysql/test1.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SystemLearning/夯实基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/SystemLearning/夯实基础.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,47 +22,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SystemLearning/夯实基础.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="361">
-                <caret line="716" selection-start-line="716" selection-end-line="716" />
+              <first_editor relative-caret-position="220">
+                <caret line="887" lean-forward="true" selection-start-line="887" selection-end-line="887" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/mysql/test1.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <element signature="e#15#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/net/http/httpServer.go">
+        <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/CSP/c1.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="212">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
               <folding>
-                <element signature="e#14#49#0" expanded="true" />
+                <element signature="e#14#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/net/http/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="1194" selection-start-line="1194" selection-end-line="1194" />
             </state>
           </provider>
         </entry>
@@ -89,6 +60,7 @@
     <findStrings>
       <find>断言</find>
       <find>异常</find>
+      <find>time</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/opt/go" />
@@ -98,9 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test3/tez.go" />
-        <option value="$PROJECT_DIR$/test3/t1.go" />
-        <option value="$PROJECT_DIR$/test4/t1.go" />
         <option value="$PROJECT_DIR$/NewGoNotebook.md" />
         <option value="$PROJECT_DIR$/go.mod" />
         <option value="$PROJECT_DIR$/SystemLearning/GrammarBasis/goto/goto.go" />
@@ -147,8 +116,11 @@
         <option value="$PROJECT_DIR$/SystemLearning/GrammarBasis/net/http/index.html" />
         <option value="$PROJECT_DIR$/SystemLearning/GrammarBasis/net/http/httpServer.go" />
         <option value="$PROJECT_DIR$/SystemLearning/GrammarBasis/redis.md" />
-        <option value="$PROJECT_DIR$/SystemLearning/夯实基础.md" />
         <option value="$PROJECT_DIR$/SystemLearning/GrammarBasis/mysql/test1.go" />
+        <option value="$PROJECT_DIR$/SystemLearning/GrammarBasis/redis/redis1.go" />
+        <option value="$PROJECT_DIR$/SystemLearning/GrammarBasis/redis/redis2.go" />
+        <option value="$PROJECT_DIR$/SystemLearning/GrammarBasis/CSP/c1.go" />
+        <option value="$PROJECT_DIR$/SystemLearning/夯实基础.md" />
       </list>
     </option>
   </component>
@@ -159,10 +131,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="230" />
-    <option name="y" value="222" />
-    <option name="width" value="1708" />
-    <option name="height" value="970" />
+    <option name="x" value="687" />
+    <option name="y" value="44" />
+    <option name="width" value="1733" />
+    <option name="height" value="1009" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -192,17 +164,6 @@
             <path>
               <item name="Golang-Study" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Golang-Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go Modules &lt;github.com/dollarkillerx/Golang-Study&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Golang-Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Go Modules &lt;github.com/dollarkillerx/Golang-Study&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="mysql@v1.4.1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,12 +210,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build httpServer.go">
-    <configuration name="go build demo1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build c1.go">
+    <configuration name="go build c1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang-Study" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/SystemLearning/GrammarBasis/reflect/demo1.go" />
+      <filePath value="$PROJECT_DIR$/SystemLearning/GrammarBasis/CSP/c1.go" />
       <package value="github.com/dollarkillerx/Golang-Study" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -277,33 +238,31 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build reflect1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build redis1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang-Study" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/SystemLearning/GrammarBasis/reflect/reflect1.go" />
+      <filePath value="$PROJECT_DIR$/SystemLearning/GrammarBasis/redis/redis1.go" />
       <package value="github.com/dollarkillerx/Golang-Study" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkGetSum in github.com/dollarkillerx/Golang-Study/SystemLearning/GrammarBasis/test/pressure" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang-Study" />
-      <working_directory value="$PROJECT_DIR$/SystemLearning/GrammarBasis/test/pressure" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="github.com/dollarkillerx/Golang-Study/SystemLearning/GrammarBasis/test/pressure" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/SystemLearning/GrammarBasis/mysql/test1.go" />
+      <package value="github.com/dollarkillerx/Golang-Study" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkGetSum$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build c1.go" />
+        <item itemvalue="Go Build.go build redis1.go" />
+        <item itemvalue="Go Build.go build test1.go" />
         <item itemvalue="Go Build.go build httpServer.go" />
         <item itemvalue="Go Build.go build getAndPost.go" />
-        <item itemvalue="Go Build.go build demo1.go" />
-        <item itemvalue="Go Build.go build reflect1.go" />
-        <item itemvalue="Go Test.BenchmarkGetSum in github.com/dollarkillerx/Golang-Study/SystemLearning/GrammarBasis/test/pressure" />
       </list>
     </recent_temporary>
   </component>
@@ -349,22 +308,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="222" width="1708" height="970" extended-state="0" />
+    <frame x="687" y="44" width="1733" height="1009" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.14096385" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.19643916" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.25297296" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37738097" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45392492" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928678" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21129943" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24683544" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -386,33 +345,6 @@
     <SUITE FILE_PATH="coverage/Golang_Study$BenchmarkGetSum_in_github_com_dollarkillerx_Golang_Study_SystemLearning_GrammarBasis_test_pressure.out" NAME="BenchmarkGetSum in github.com/dollarkillerx/Golang-Study/SystemLearning/GrammarBasis/test/pressure Coverage Results" MODIFIED="1557844901235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///opt/go/src/io/ioutil/ioutil.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/ioutil/TestFile0.test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/ioutil/timeCopy.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file:///opt/go/src/bufio/bufio.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="196" column="17" selection-start-line="196" selection-start-column="17" selection-end-line="196" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/ioutil/timgCc.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/ioutil/timg.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -730,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/net/http/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="1194" selection-start-line="1194" selection-end-line="1194" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/redis.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -749,10 +674,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/net/http/httpServer.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="480">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/net/http/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28656">
+          <caret line="1194" selection-start-line="1194" selection-end-line="1194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/GOPATH/pkg/mod/github.com/jmoiron/sqlx@v1.2.0/sqlx.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="264" column="5" selection-start-line="264" selection-start-column="5" selection-end-line="264" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/mysql/test1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/GOPATH/pkg/mod/github.com/gomodule/redigo@v2.0.0+incompatible/redis/pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/redis/redis1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="49" />
           <folding>
-            <element signature="e#14#49#0" expanded="true" />
+            <element signature="e#14#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/redis/redis2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/CSP/c1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -760,20 +740,10 @@
     <entry file="file://$PROJECT_DIR$/SystemLearning/夯实基础.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="361">
-            <caret line="716" selection-start-line="716" selection-end-line="716" />
+          <first_editor relative-caret-position="220">
+            <caret line="887" lean-forward="true" selection-start-line="887" selection-end-line="887" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SystemLearning/GrammarBasis/mysql/test1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="e#15#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
